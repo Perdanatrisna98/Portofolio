@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+    /* Background */
+    --background: #fafafa;
+    --foreground: #0f172a;
+
+    /* Primary */
+    --primary: #7c3aed;
+    --primary-foreground: #ffffff;
+
+    /* Secondary */
+    --secondary: #a855f7;
+
+    /* Card */
+    --card: rgba(255, 255, 255, 0.7);
+
+    /* Border */
+    --border: rgba(255, 255, 255, 0.15);
+
+    /* Radius */
+    --radius: 18px
+}
+
+.dark {
+    --background: #09090b;
+    --foreground: #f8fafc;
+
+    --primary: #8b5cf6;
+    --secondary: #c084fc;
+
+    --card: rgba(255, 255, 255, .05);
+    --border: rgba(255, 255, 255, .08);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans);
+}
