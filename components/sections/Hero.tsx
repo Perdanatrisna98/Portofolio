@@ -34,6 +34,19 @@ export default function Hero() {
                         </Button>
                     </motion.div>
 
+                    <div className="mt-16 grid grid-cols-3 gap-8">
+                        {heroData.stats.map((stat) => (
+                            <div key={stat.label}>
+                                <h3 className="text-3xl font-bold">
+                                    {stat.value}
+                                </h3>
+                                <p className="text-sm opacity-70">
+                                    {stat.label}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+
                 </div>
             </Container>
 
