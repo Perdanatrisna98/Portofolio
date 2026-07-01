@@ -1,7 +1,15 @@
+import MainLayout from "@/components/layout/MainLayout";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Helloooo, Im Atomic</h1>
-    </main>
+    <MainLayout>
+
+      <div className="h-screen flex items-center justify-center">
+
+        <h1 className="text-6xl font-bold">Hello</h1>
+
+      </div>
+
+    </MainLayout>
   );
 }

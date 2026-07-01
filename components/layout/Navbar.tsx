@@ -1,4 +1,4 @@
-import Container from "./container";
+import Container from "./Container";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
@@ -29,7 +29,7 @@ export default function Navbar() {
                 </nav>
 
             </Container>
-            
+
         </header>
     )
 }
