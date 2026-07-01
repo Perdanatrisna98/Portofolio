@@ -16,7 +16,7 @@ export const aboutTimeline = [
     },
     {
         year: "2026",
-        title: "PKL di Pt Sevenlay",
+        title: "PKL di PT Sevenlay",
         description: "Menjalani Praktik Kerja Lapangan sebagai Frontend Developer di Kliktron.id.",
     },
     {

@@ -25,11 +25,11 @@ export default function Hero() {
                     </motion.p>
 
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }} className="mt-10 flex justify-center gap-4">
-                        <Button href="/cv.pdf">
+                        <Button href="#projects">
                             Lihat Project
                         </Button>
 
-                        <Button href="#projects">
+                        <Button href="/cv.pdf">
                             Download CV
                         </Button>
                     </motion.div>

@@ -11,9 +11,9 @@ export default function MainLayout({
 }:MainLayoutProps) {
     return (
         <>
-            <Background />
-
             <Navbar />
+
+            <Background />
 
             <main>
                 {children}
